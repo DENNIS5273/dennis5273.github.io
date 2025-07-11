@@ -21,10 +21,6 @@ jobs:
       matrix:
         node: [ 23 ]
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    
     name: Astro Check for Node.js ${{ matrix.node }}
     steps:
       - name: Setup Node.js
@@ -72,13 +68,23 @@ jobs:
       - name: Run Astro Build
         run: pnpm astro build
 
-      - name: Setup Pages
-        uses: actions/configure-pages@v5
-
+  upload:
+    needs: build
+    runs-on: ubuntu-latest
       - name: Upload Build Artifacts
         uses: actions/upload-artifact@v4
         with:
           path: ./dist
+
+  deploy:
+    needs: upload
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+      - name: Configure Pages
+        uses: actions/configure-pages@v4
+
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
