@@ -71,6 +71,7 @@ jobs:
   upload:
     needs: build
     runs-on: ubuntu-latest
+    steps:
       - name: Upload Build Artifacts
         uses: actions/upload-artifact@v4
         with:
@@ -82,6 +83,7 @@ jobs:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
+    steps:
       - name: Configure Pages
         uses: actions/configure-pages@v4
 
