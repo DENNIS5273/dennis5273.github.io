@@ -65,9 +65,9 @@ export const profileConfig: ProfileConfig = {
 			url: "https://twitter.com",
 		},
 		{
-			name: "Steam",
-			icon: "fa6-brands:steam",
-			url: "https://store.steampowered.com",
+			name: "LinkedIn",
+			icon: "fa6-brands:linkedin",
+			url: "https://www.linkedin.com/in/dennis-han-95130b230/",
 		},
 		{
 			name: "GitHub",
