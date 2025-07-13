@@ -58,21 +58,23 @@ export const profileConfig: ProfileConfig = {
 	bio: "Business Analytics and Finance Specialist, Schulich School of Business Expected 2026",
 	links: [
 		{
-			name: "Twitter",
-			icon: "fa6-brands:twitter", // Visit https://icones.js.org/ for icon codes
-			// You will need to install the corresponding icon set if it's not already included
-			// `pnpm add @iconify-json/<icon-set-name>`
-			url: "https://twitter.com",
-		},
-		{
 			name: "LinkedIn",
 			icon: "fa6-brands:linkedin",
 			url: "https://www.linkedin.com/in/dennis-han-95130b230/",
 		},
 		{
-			name: "GitHub",
-			icon: "fa6-brands:github",
-			url: "https://github.com/saicaca/fuwari",
+			name: "Email",
+			icon: "fa6-solid:envelope",
+			url: "mailto:dennis.hanbusiness@gmail.com",
+		},
+		{
+			name: "Discord",
+			icon: "fa6-brands:discord",
+			url: "https://discordapp.com/users/330906605577175040", 
+			
+			// Visit https://icones.js.org/ for icon codes
+			// You will need to install the corresponding icon set if it's not already included
+			// `pnpm add @iconify-json/<icon-set-name>`
 		},
 	],
 };
