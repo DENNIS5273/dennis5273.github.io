@@ -1,4 +1,4 @@
-# Hello!
+# Hello There!
 
 My name is Dennis, I'm fourth year student at the `Schulich School of Business` pursuing a double specialization in `Finance` and `Business Analytics` (expected graduation 2026). 
 
@@ -8,7 +8,7 @@ I’ve also participated in several finance case competitions and student invest
 
 Outside of academics, I serve as a `tutor` with TutorBright, where I support students in `developing their skills and confidence`.
 
-Additionally, I love playing strategy board games, exploring the city, and running a small art business with my partner ([@pagedraws](https://pagedraws.carrd.co/)).
+Additionally, I love playing strategy board games, exploring the city, and running a small art business with my partner [@pagedraws](https://pagedraws.carrd.co/).
 
 I’m currently `seeking` internship opportunities in `corporate finance`, `financial analysis`, or `financial consulting`, where I can further develop my skills and contribute to dynamic, high-performing teams.
 
